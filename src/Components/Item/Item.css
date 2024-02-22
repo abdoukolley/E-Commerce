@@ -1,0 +1,160 @@
+.item{
+    width: 300px;
+    justify-content: center;
+}
+
+.item p{
+    margin: 6px 0px;
+}
+
+.item-prices{
+    display: flex;
+    gap: 20px;
+}
+
+.item-price-new{
+    color: #374151;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.item-price-old{
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.item:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.item img{
+    width: 300px;
+    height: 400px;
+    justify-content: center;
+}
+
+/*Media Query*/
+
+@media (max-width: 1200px){
+    .item{
+        width: 250px;
+    }
+
+    .item img{
+        width: 250px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .item{
+        width: 80px;
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-bottom: 50px;
+    }
+
+    .item img{
+        width: 200px;
+        height: 300px;
+    }
+
+    .item p {
+        margin: 6px 0px;
+        width: 200%;
+    }
+    
+}
+
+@media (max-width: 945px){
+    .item{
+        width: 200px;
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-bottom: 50px;
+    }
+
+    .item img{
+        width: 300px;
+        height: 400px;
+    }
+
+    .item p{
+        font-size: 14px;
+        width: 500px;
+    }
+}
+
+@media (max-width: 690px){
+    .item{
+        width: 140px;
+        margin-left: 10px;
+        margin-right: 60px;
+        margin-bottom: 50px;
+    }
+
+    .item img{
+        width: 190px;
+        height: 230px;
+    }
+
+    .item p{
+        font-size: 14px;
+        width: 200px;
+        height: 35px;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    .item{
+        width: 105px;
+        margin-left: 10px;
+        margin-right: 60px;
+        margin-bottom: 50px;
+    }
+
+    .item img{
+        width: 150px;
+        height: 190px;
+    }
+
+    .item p{
+        font-size: 13px;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .item{
+        width: 81px;
+        margin-left: 10px;
+        margin-right: 60px;
+        margin-bottom: 50px;
+    }
+
+    .item img {
+        width: 125px;
+        height: 180px;
+    }
+
+    .item p {
+        font-size: 13px;
+        width: 120px;
+    }
+
+    .item-price-new{
+        font-size: 15px;
+    }
+    
+    .item-price-old{
+        font-size: 15px;
+    }
+
+}
+  
+
