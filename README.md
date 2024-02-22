@@ -1,6 +1,7 @@
 # E-Commerce App
 
-This is an e-commerce application built with [technology stack]. It allows users to browse products, add them to a cart, and make purchases.
+This is an e-commerce application built with React. It allows users to browse products, view product information add them to a cart.
+The link to the website for this project: https://abdoukolley-ecomm.netlify.app/
 
 ## Features
 
