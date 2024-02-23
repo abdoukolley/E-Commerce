@@ -14,7 +14,7 @@ The link to the website for this project: https://abdoukolley-ecomm.netlify.app/
 
 1. Clone the repository: `https://github.com/abdoukolley/E-Commerce.git`
 2. Install dependencies: `npm install`
-3. 3. Start the server: `npm start`
+3. Start the server: `npm start`
 
 
 ## Usage
